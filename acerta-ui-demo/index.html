@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Acerta UI Demo</title>
+  <base href="/">
+  <meta name="google" content="notranslate">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" href="favicon/apple-touch-icon.png" sizes="180x180">
+  <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon/favicon.ico">
+<link rel="stylesheet" href="styles.8eca1e302131df2977b5.css"></head>
+<body>
+  <app-root>
+    <div class="aui-spinner">
+      <div class="aui-spinner-dots">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </app-root>
+
+  <!-- Critical CSS -->
+  <style>
+    @-webkit-keyframes spin-fade{0%{opacity:1}to{opacity:.15}}
+    @-moz-keyframes spin-fade{0%{opacity:1}to{opacity:.15}}
+    @-ms-keyframes spin-fade{0%{opacity:1}to{opacity:.15}}
+    @keyframes spin-fade{0%{opacity:1}to{opacity:.15}}
+    .aui-spinner{position:fixed;z-index:2000000000;left:50%;top:50%;width:250px;height:140px;background-color:#fff;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);border:1px solid #3ea3dc}
+    .aui-spinner-dots {margin-top:15px;margin-left:-3px;}
+    .aui-spinner-dots div{position:absolute;width:4px;height:12px;border-radius:50%;transform-origin:50% -10px;will-change:transform, opacity;-webkit-animation:spin-fade 854ms infinite;-ms-animation:spin-fade 854ms infinite;-moz-animation:spin-fade 854ms infinite;animation:spin-fade 854ms infinite;-webkit-animation-delay:0ms;animation-delay:0ms}
+    .aui-spinner-dots div:nth-child(12){background-color:#49a5dd;-webkit-animation-delay:-70ms;animation-delay:-70ms;transform: rotate(330deg);}
+    .aui-spinner-dots div:nth-child(11){background-color:#3f7cbf;-webkit-animation-delay:-.14s;animation-delay:-.14s;transform: rotate(300deg);}
+    .aui-spinner-dots div:nth-child(10){background-color:#3f7cbf;-webkit-animation-delay:-.21s;animation-delay:-.21s;transform: rotate(270deg);}
+    .aui-spinner-dots div:nth-child(9){background-color:#ffd500;-webkit-animation-delay:-.28s;animation-delay:-.28s;transform: rotate(240deg);}
+    .aui-spinner-dots div:nth-child(8){background-color:#ffd500;-webkit-animation-delay:-.35s;animation-delay:-.35s;transform: rotate(210deg);}
+    .aui-spinner-dots div:nth-child(7){background-color:#ee7556;-webkit-animation-delay:-.42s;animation-delay:-.42s;transform: rotate(180deg);}
+    .aui-spinner-dots div:nth-child(6){background-color:#ee7556;-webkit-animation-delay:-.49s;animation-delay:-.49s;transform: rotate(150deg);}
+    .aui-spinner-dots div:nth-child(5){background-color:#e8318a;-webkit-animation-delay:-.56s;animation-delay:-.56s;transform: rotate(120deg);}
+    .aui-spinner-dots div:nth-child(4){background-color:#e8318a;-webkit-animation-delay:-.63s;animation-delay:-.63s;transform: rotate(90deg);}
+    .aui-spinner-dots div:nth-child(3){background-color:#4cb4e7;-webkit-animation-delay:-.7s;animation-delay:-.7s;transform: rotate(60deg);}
+    .aui-spinner-dots div:nth-child(2){background-color:#4cb4e7;-webkit-animation-delay:-.77s;animation-delay:-.77s;transform: rotate(30deg);}
+    .aui-spinner-dots div:first-child{background-color:#49a5dd;-webkit-animation-delay:-.84s;animation-delay:-.84s;transform: rotate(0deg);}
+  </style>
+
+<script src="runtime.da7c79ad2685bba47e34.js"></script><script src="polyfills-es5.e51fabc02e200fa95c54.js" nomodule></script><script src="polyfills.e58831b2c64ff465642f.js"></script><script src="scripts.f29419639756219ad2df.js"></script><script src="main.d450c0f874affc93a373.js"></script></body>
+</html>

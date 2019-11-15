@@ -1,0 +1,41 @@
+{
+  "APP_NAME": "AcertaUI Demo FR",
+  "BUSINESS_TYPES": {
+    "ACERTA_KEY": "Acerta Clé",
+    "COMPANY_NUMBER_HEADER": "Numéro d'entreprise",
+    "COMPANY_NUMBER_LABEL": "Numéro d'entreprise",
+    "COMPANY_NUMBER_COMPONENT_LABEL": "Numéro d'entreprise (component)",
+    "COMPANY_NUMBER_DIRECTIVE_LABEL": "Numéro d'entreprise (directive)",
+    "NATIONAL_REGISTRY_NUMBER_HEADER": "Numéro de registre national",
+    "NATIONAL_REGISTRY_NUMBER_LABEL": "Numéro de registre national",
+    "NATIONAL_REGISTRY_NUMBER_COMPONENT_LABEL": "Numéro de registre national (component)",
+    "NATIONAL_REGISTRY_NUMBER_DIRECTIVE_LABEL": "Numéro de registre national (directive)",
+    "CURRENCY_HEADER": "Monnaie",
+    "CURRENCY_LABEL": "Montant",
+    "CURRENCY_COMPONENT_LABEL": "Montant (component)",
+    "CURRENCY_PIPE_LABEL": "Montant (pipe)",
+    "NUMBER_HEADER": "Nombre",
+    "NUMBER_LABEL": "Nombre",
+    "NUMBER_COMPONENT_LABEL": "Nombre (component)",
+    "VALIDATION_STRATEGY_HEADER": "Stratégie de validation",
+    "VALIDATION_STRATEGY_LABEL": "Stratégie",
+    "VALIDATION_STRATEGY_ALWAYS": "Toujours",
+    "VALIDATION_STRATEGY_TOUCHED": "Touched ( = défaut )",
+    "VALIDATION_STRATEGY_DIRTY": "Dirty",
+    "VALIDATION_STRATEGY_NEVER": "Jamais",
+    "TEXT_HEADER": "Text",
+    "TEXT_COMPONENT_LABEL" : "Text (component)",
+    "EMAIL_COMPONENT_LABEL" : "Email (component)",
+    "FORM_GROUP_HEADER" : "Ajouter un label"
+  },
+  "DATEPICKER": {
+    "DATEPICKER_TITLE": "Datepicker",
+    "DATEPICKER_STATES": "States",
+    "DATEPICKER_STATE_NORMAL": "Normal state",
+    "DATEPICKER_STATE_DISABLED": "Disabled state",
+    "DATEPICKER_LABEL": "Date"
+  },
+  "NOTIFICATIONS": {
+    "WARNING": "Je suis un avertissement sérieux!! {{aParam}}"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "APP_NAME": "AcertaUI Demo NL",
+  "BUSINESS_TYPES": {
+    "ACERTA_KEY": "Acerta Sleutel",
+    "COMPANY_NUMBER_HEADER": "Ondernemingsnummer",
+    "COMPANY_NUMBER_LABEL": "Ondernemingsnummer",
+    "COMPANY_NUMBER_COMPONENT_LABEL": "Ondernemingsnummer (component)",
+    "COMPANY_NUMBER_DIRECTIVE_LABEL": "Ondernemingsnummer (directive)",
+    "PHONE_NUMBER_HEADER": "Ondernemingsnummer",
+    "PHONE_NUMBER_COMPONENT_LABEL": "Telefoonnummer (component)",
+    "NATIONAL_REGISTRY_NUMBER_HEADER": "Rijksregisternummer",
+    "NATIONAL_REGISTRY_NUMBER_LABEL": "Rijksregisternummer",
+    "NATIONAL_REGISTRY_NUMBER_COMPONENT_LABEL": "Rijksregisternummer (component)",
+    "NATIONAL_REGISTRY_NUMBER_DIRECTIVE_LABEL": "Rijksregisternummer (directive)",
+    "CURRENCY_HEADER": "Munteenheid",
+    "CURRENCY_LABEL": "Bedrag",
+    "CURRENCY_COMPONENT_LABEL": "Bedrag (component)",
+    "CURRENCY_PIPE_LABEL": "Bedrag (pipe)",
+    "NUMBER_HEADER": "Nummer",
+    "NUMBER_LABEL": "Nummer",
+    "NUMBER_COMPONENT_LABEL": "Nummer (component)",
+    "VALIDATION_STRATEGY_HEADER": "Validatie strategie",
+    "VALIDATION_STRATEGY_LABEL": "Strategie",
+    "VALIDATION_STRATEGY_ALWAYS": "Altijd",
+    "VALIDATION_STRATEGY_TOUCHED": "Touched ( = default )",
+    "VALIDATION_STRATEGY_DIRTY": "Dirty",
+    "VALIDATION_STRATEGY_NEVER": "Nooit",
+    "TEXT_HEADER": "Generieke tekst",
+    "TEXT_COMPONENT_LABEL" : "Tekst (component)",
+    "EMAIL_COMPONENT_LABEL" : "Email (component)",
+    "FORM_GROUP_HEADER" : "Voeg een label toe"
+  },
+  "DATEPICKER": {
+    "DATEPICKER_TITLE": "Datepicker",
+    "DATEPICKER_STATES": "States",
+    "DATEPICKER_STATE_NORMAL": "Normal state",
+    "DATEPICKER_STATE_DISABLED": "Disabled state",
+    "DATEPICKER_LABEL": "Date"
+  },
+  "NOTIFICATIONS": {
+    "WARNING": "Ik ben een serieuze warning!! {{aParam}}"
+  }
+}
